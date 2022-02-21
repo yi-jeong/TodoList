@@ -33,7 +33,7 @@ const CheckCircle = styled.div`
   height: 32px;
   border-radius: 16px;
   border: 1px solid #1774ff;
-  font-size: 24px;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,7 +49,7 @@ const CheckCircle = styled.div`
 
 const Text = styled.div`
   flex: 1;
-  font-size: 21px;
+  font-size: 1.2rem;
   color: #495057;
   ${props =>
     props.done &&

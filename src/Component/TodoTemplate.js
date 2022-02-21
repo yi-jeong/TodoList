@@ -4,7 +4,8 @@ import styled from 'styled-components';
 const TodoTemplateBlock = styled.div`
     display:flex;
     flex-direction: column;
-    width: 60%;
+    width: 90%;
+    max-width:720px;
     height: 80vh;
     position:absolute;
     top:50%;
